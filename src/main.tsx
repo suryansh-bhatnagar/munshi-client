@@ -7,7 +7,7 @@ import './index.css'
 import App from './App.tsx'
 
 const httpLink = createHttpLink({
-  uri: 'http://localhost:5000/graphql',
+  uri: import.meta.env.VITE_GRAPHQL_URI || (import.meta.env.DEV ? 'http://localhost:5000/graphql' : '/graphql'),
 });
 
 const authLink = setContext((_, { headers }) => {
