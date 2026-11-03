@@ -4,6 +4,12 @@ The frontend web application for Munshi — an intelligent AI accounting and inv
 
 Built with **React 18**, **TypeScript**, **Vite**, **Tailwind CSS**, and **Apollo Client**.
 
+Frontend Repository : https://github.com/suryansh-bhatnagar/munshi-client
+
+Backend Repository : https://github.com/suryansh-bhatnagar/munshi-server
+
+View Live : https://munshi-ai.duckdns.org/
+
 ---
 
 ## ✨ Features
